@@ -1,0 +1,94 @@
+html {
+    background-color: var(--cor-background);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 400px;
+    height: 550px;
+    background-color: var(--cor-background-card);
+    box-shadow: 20px 10px 5px black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.imagem-destaque {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 100% ;
+}
+
+.informacoes-de-publicacao{
+    margin: 30px 50px;
+    font-weight: 600;
+}
+
+.informacoes-de-publicacao .titulo {
+    background-color: var(--cor-background);
+    padding: 5px;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.informacoes-de-publicacao .publicacao {
+    margin-top: 20px;
+}
+
+.artigo-publicacao{
+    margin-left: 50px;
+}
+
+.artigo-publicacao .titulo{
+    color: var(--cor-texto-principal);
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.artigo-publicacao .descricao {
+    margin-top: 10px;
+    color: var(--cor-descricao);
+    max-width: 350px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.autor {
+    margin: 30px 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.autor img {
+    max-width: 50px;
+}
+
+.autor .nome-autor{
+    color: var(--cor-texto-principal);
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 16px;
+}

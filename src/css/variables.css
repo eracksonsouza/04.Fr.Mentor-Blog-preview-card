@@ -1,0 +1,6 @@
+:root {
+    --cor-background: hsl(47, 88%, 63%);
+    --cor-background-card: hsl(0, 0%, 100%);
+    --cor-descricao: hsl(0, 0%, 50%);
+    --cor-texto-principal: hsl(0, 0%, 7%);
+}
